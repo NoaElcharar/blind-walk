@@ -1,0 +1,54 @@
+/* Sign-up.css */
+
+.registration-form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+  background-color: #6ec063;
+}
+
+.registration{
+  width: 400px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.1);
+  background-color: #d0eaf4;
+}
+
+.registration h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #2ea145;
+}
+
+.registration form {
+  display: flex;
+  flex-direction: column;
+}
+
+.registration label {
+  margin-bottom: 10px;
+  color: #0a0202;
+}
+
+.registration input {
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid #7fa324;
+  margin-bottom: 15px;
+}
+
+.registration button {
+  padding: 12px;
+  border: none;
+  border-radius: 5px;
+  background-color: #57cc7c;
+  color: #0f5d29;
+  cursor: pointer;
+}
+
+.registration-card button:hover {
+  background-color: #6f88a2;
+}
+

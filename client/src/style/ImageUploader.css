@@ -1,0 +1,143 @@
+.upload-container {
+    max-width: 600px;
+    /* קובץ מרכזי במרכז המסך */
+    margin: 0 auto;
+    /* למרכז את התוכן באופן אוטומטי */
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    flex-direction: column;
+    margin: 5%;
+
+}
+
+.upload-preview {
+    text-align: center;
+    /* תמונה או וידאו יהיו ממורכזים */
+    margin-bottom: 20px;
+}
+
+.upload-preview img,
+.upload-preview video {
+    max-width: 100%;
+    /* להביא תמונות ווידאו לגודל מרבי */
+    max-height: 500px;
+    /* להביא תמונות ווידאו לגודל מרבי */
+    display: block;
+    /* לאפשר עיצוב מרבי של הפריטים */
+    margin: 0 auto 20px;
+    /* להביא תמונות ווידאו לגודל מרבי */
+}
+
+.upload-input {
+    /* display: none;  להסתיר את תיבת ההעלאה הנסתרת */
+    position: absolute;
+    width: 400px;
+    opacity: 0;
+    height: 100px;
+
+}
+
+.upload-label {
+    display: block;
+    width: 150px;
+    margin: 0 auto;
+    padding: 10px 15px;
+    text-align: center;
+    background-color: #9bacbe;
+    color: #e6c29e;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.upload-label:hover {
+    background-color: #8cabcd;
+}
+
+#previewText {
+    color: #888;
+    /* הודעת העדכון יהיה בצבע אפור */
+    font-style: italic;
+    /* נטוי כדי להבטיח הבנה טובה שזאת הודעה */
+}
+
+.upload-container {
+    display: flex;
+    /* כדי לאפשר הצגת שני תיבות בצידה */
+    justify-content: space-between;
+    /* להפריד בין התיבות במרחב */
+}
+
+.upload-label {
+    width: calc(50% - 10px);
+    /* חצי מהרוחב של הקונטיינר עם שפעות */
+}
+
+/* 
+
+
+::-webkit-inner-spin-button
+.image_area h3 {
+    direction: rtl;
+    color: #2C3C5A;
+    font-size: 20px
+
+}
+.upload-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgb(255, 255, 255);
+  }
+.upload-container>p {
+    font-size: 100%;
+    margin: 4px;
+    font-weight: 500;
+    color: #2c3c5a6f;
+}
+
+.image-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: 300px;
+    justify-content: center;
+    border: 2px dashed rgba(0, 0, 0, .3);
+}
+
+.image_area {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.input-file {
+    display: block;
+    border: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0;
+}
+
+input[type=submit] {
+    margin-top: 13px;
+    width: 100%;
+    height: 50px;
+    border-radius: 1%;
+    background-color: #09C4A7;
+    font-family: inherit;
+    color: #2c3c5a8f;
+    font-size: 20px;
+    margin-bottom: 50px;
+    box-shadow: 0 0 7px #09C4A7;
+} */

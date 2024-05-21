@@ -1,0 +1,195 @@
+
+.enterForm {
+  width: 450px;
+  margin: 0 auto;
+  margin-top: 25px;
+  padding: 20px;
+  background-color:  #EFE5CC ;
+  border-radius: 8px;
+  box-shadow: 0 0 10px  #d9eaae;
+}
+
+.enterForm h2 {
+  font-size: 35px;
+  margin-bottom: 20px;
+  color: #23aacf;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="password"] {
+  width: 90%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px ridge  #90e764;
+  border-radius: 3px;
+  box-shadow: 0 0 7px  #91c4bc;
+  font-family: inherit;
+
+
+}
+
+input[type="submit"],button {
+  padding: 10px 20px;
+  font-size: 20px;
+  background-color: #95dd8d;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: inherit;
+  font-weight: bold;
+
+}
+
+button:hover {
+  background-color: #c2efe8;
+  border: 1px ridge  #5b8664;
+}
+
+
+/* Style the footer */
+.footer {
+  background-color: #c47909;
+  padding: 0.03px;
+  font-size: 50px;
+}
+
+
+/* 
+
+
+
+.enter-to-site-form-container {
+  width: 450px;
+  margin: 0 auto;
+  margin-top: 25px;
+  padding: 20px;
+  background-color:  #daebff ;
+  border-radius: 8px;
+  box-shadow: 0 0 10px  #2C3C5A;
+}
+
+.enter-to-site-form-container h2 {
+  font-size: 35px;
+  margin-bottom: 20px;
+  color: #2C3C5A;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  width: 90%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px ridge  #09C4A7;
+  border-radius: 3px;
+  box-shadow: 0 0 7px  #09C4A7;
+  font-family: inherit;
+
+
+}
+
+input[type="submit"],button {
+  padding: 10px 20px;
+  font-size: 20px;
+  background-color: #09C4A7;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: inherit;
+  font-weight: bold;
+
+}
+
+button:hover {
+  background-color: #07907b;
+  border: 1px ridge  #09C4A7;
+}
+
+
+/* Style the footer */
+/* .footer {
+  background-color: #09C4A7;
+  padding: 0.03px;
+  font-size: 50px;
+} */
+/* סגנון כללי
+body {
+    font-family: Arial, sans-serif;
+    background-color: #d38327;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 400px;
+    margin: 100px auto;
+    background-color: #6e7c16;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(146, 38, 38, 0.1);
+  }
+  
+  h2 {
+    text-align: center;
+    color: #d55506;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    margin-bottom: 8px;
+  }
+  
+  input[type="text"],
+  input[type="password"] {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #a63b3b;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  button[type="submit"] {
+    padding: 10px 20px;
+    background-color: #68a5e6;
+    color: #f1350b;
+    border: none;
+    border-radius:5px;
+    cursor: pointer;
+    font-size: 26px;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #2700b3;
+  }
+  
+  /* עיצוב עבור מצב תקופתי */
+  /* input:invalid {
+    border-color: #0037ff;
+  }
+   /* */  

@@ -1,0 +1,39 @@
+.location-container {
+    font-family: Arial, sans-serif;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .location-label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .location-input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .address-label {
+    display: block;
+    margin-top: 20px;
+  }
+  
+  .address-input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .no-address {
+    display: block;
+    margin-top: 5px;
+    color: #888;
+  }
+  

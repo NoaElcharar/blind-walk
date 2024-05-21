@@ -1,0 +1,11 @@
+
+.up{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgb(219, 29, 29);  
+}
